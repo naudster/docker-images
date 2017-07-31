@@ -1,6 +1,6 @@
 FROM plexinc/pms-docker:plexpass
 LABEL org.freenas.interactive="false" 		\
-      org.freenas.version="1.5.0.3501"		\
+      org.freenas.version="Latest (Auto Update)"		\
       org.freenas.upgradeable="true"		\
       org.freenas.expose-ports-at-host="true"	\
       org.freenas.autostart="true"		\
@@ -24,11 +24,11 @@ LABEL org.freenas.interactive="false" 		\
           }							\
       ]"							\
       org.freenas.settings="[ 					\
-          {							\
-              \"env\": \"TZ\",					\
-              \"descr\": \"Plex container Timezone\",		\
-              \"optional\": true				\
-          },							\
+          {								\
+              \"env\": \"TZ\",						\
+              \"descr\": \"Timezone - eg Europe/London\",		\
+              \"optional\": true					\
+          },								\
           {							\
               \"env\": \"ADVERTISE_IP\",			\
               \"descr\": \"http://<hostIPAddress>:32400/\",	\

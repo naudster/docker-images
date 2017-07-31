@@ -1,6 +1,6 @@
-FROM plexinc/pms-docker
+FROM plexinc/pms-docker:latest
 LABEL org.freenas.interactive="false" 		\
-      org.freenas.version="1.4.4.3495"		\
+      org.freenas.version="Latest (Auto Update)"		\
       org.freenas.upgradeable="true"		\
       org.freenas.expose-ports-at-host="true"	\
       org.freenas.autostart="true"		\
