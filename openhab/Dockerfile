@@ -28,5 +28,4 @@ LABEL org.freenas.interactive="false" \
               \"host_path\": \"/etc/localtime\",  \
               \"readonly\": \"true\"  \
           } \
-      ]" \
-      org.freenas.settings=""
+      ]"

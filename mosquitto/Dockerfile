@@ -18,5 +18,4 @@ LABEL org.freenas.interactive="false" \
               \"name\": \"/mosquitto/log\", \
               \"descr\": \"Logs\" \
           }  \
-      ]" \
-      org.freenas.settings=""
+      ]"
